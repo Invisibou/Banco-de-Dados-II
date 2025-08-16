@@ -1,4 +1,5 @@
 
+//Program.cs é a aplicação que é rodada ao iniciar o código
 using EFTeste.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -35,7 +36,7 @@ app.MapControllerRoute(
 
 CreateDbIfNotExists(app);
 
-app.Run();
+app.Run(); //linha que dá a instrução de rodar.
 
 static void CreateDbIfNotExists(IHost host)
 {
