@@ -340,3 +340,4 @@ C:\Users\429035\Aulas\Quarta Fase\Banco de Dados II\Banco-de-Dados-II\EFTeste\EF
 C:\Users\429035\Aulas\Quarta Fase\Banco de Dados II\Banco-de-Dados-II\EFTeste\EFTeste\obj\Debug\net8.0\EFTeste.pdb
 C:\Users\429035\Aulas\Quarta Fase\Banco de Dados II\Banco-de-Dados-II\EFTeste\EFTeste\obj\Debug\net8.0\EFTeste.genruntimeconfig.cache
 C:\Users\429035\Aulas\Quarta Fase\Banco de Dados II\Banco-de-Dados-II\EFTeste\EFTeste\obj\Debug\net8.0\ref\EFTeste.dll
+C:\Users\429035\Aulas\Quarta Fase\Banco de Dados II\Banco-de-Dados-II\EFTeste\EFTeste\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

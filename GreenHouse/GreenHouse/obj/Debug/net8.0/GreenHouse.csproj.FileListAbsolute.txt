@@ -169,3 +169,4 @@ C:\Users\429035\Aulas\Quarta Fase\Banco de Dados II\Banco-de-Dados-II\GreenHouse
 C:\Users\429035\Aulas\Quarta Fase\Banco de Dados II\Banco-de-Dados-II\GreenHouse\GreenHouse\obj\Debug\net8.0\GreenHouse.pdb
 C:\Users\429035\Aulas\Quarta Fase\Banco de Dados II\Banco-de-Dados-II\GreenHouse\GreenHouse\obj\Debug\net8.0\GreenHouse.genruntimeconfig.cache
 C:\Users\429035\Aulas\Quarta Fase\Banco de Dados II\Banco-de-Dados-II\GreenHouse\GreenHouse\obj\Debug\net8.0\ref\GreenHouse.dll
+C:\Users\429035\Aulas\Quarta Fase\Banco de Dados II\Banco-de-Dados-II\GreenHouse\GreenHouse\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
