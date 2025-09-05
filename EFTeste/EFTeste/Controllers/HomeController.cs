@@ -42,26 +42,7 @@ namespace EFTeste.Controllers
         public IActionResult Create()
         {
             return View();
-        }
-
-
-        [HttpPost]
-        public async Task<IActionResult> Delete(int id)
-        {
-            var student = await _studentRepository.GetById(id);
-            if(student == null)
-            {
-                return NotFound();
-            }
-            await _studentRepository.Delete(student);
-            return RedirectToAction("Index");
-        }
-
-        [HttpGet]
-        public IActionResult Update()
-        {
-            return View();
-        }
+        }   
 
         [HttpPost]
         public async Task<IActionResult> Update(Student student)
@@ -74,7 +55,29 @@ namespace EFTeste.Controllers
             return View(student);
 		}
 
-        public IActionResult Privacy()
+		[HttpGet]
+		public async Task<IActionResult> Update(int id)
+		{
+		    var student = await _studentRepository.GetById(id);
+		    if (student == null)
+		    {
+		        return NotFound();
+		    }
+            return View(student);
+		}
+
+		[HttpPost]
+		public async Task<IActionResult> Delete(int id)
+		{
+			var student = await _studentRepository.GetById(id);
+			if (student == null)
+			{
+				return NotFound();
+			}
+			await _studentRepository.Delete(student);
+			return RedirectToAction("Index");
+		}
+		public IActionResult Privacy()
         {
             return View();
         }

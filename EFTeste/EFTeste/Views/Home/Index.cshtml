@@ -39,15 +39,11 @@
                             Excluir
                         </button>
                         </form>
-
-                        <form asp-controller="Home" asp-action="Update"
-                              method="post">
-                            <input type="hidden" name="id" value="@s.ID" />
-                            <button type="submit"
-                                    class="btn btn-danger btn-sm">
-                                Atualizar
-                            </button>
-                        </form>
+                        </td>
+                        <td>
+                        <a asp-controller="Home" asp-action="Update" asp-route-id="@s.ID">
+                            Atualizar
+                        </a>
                         </td>
                     </tr>
                 }
