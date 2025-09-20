@@ -1,7 +1,7 @@
 ﻿@model EFTeste.Models.Student
 
 @{
-
+    ViewData["Title"] = "Edit";
 }
 <h1>Update</h1>
 
@@ -11,10 +11,11 @@
 
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Update">
+        <form asp-action="Update" asp-route-id="@Model.ID">
             <input type="hidden" asp-for="ID" />
             <div asp-validation-summary="ModelOnly"
                  class="text-danger"></div>
+
             <div class="form-group">
                 <label asp-for="FirstMidName"
                        class="control-label"></label>
@@ -43,7 +44,7 @@
             </div>
 
             <div class="form-group text-end">
-                <input type="submit" value="Salvar"
+                <input type="submit" value="Editar"
                        class="btn btn-primary" />
             </div>
         </form>

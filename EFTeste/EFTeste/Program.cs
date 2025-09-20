@@ -13,8 +13,9 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<SchoolContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>(); // Fêmea e macho, a interface que recebe a classe, assim não precisa alterar nada no código
+builder.Services.AddScoped<IStudentCoursesRepository, StudentCoursesRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

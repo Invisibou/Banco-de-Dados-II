@@ -21,7 +21,7 @@ namespace EFTeste.Controllers
             _logger = logger;
             _studentRepository = studentRepository;
         }
-
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             return View(await _studentRepository.GetAll() );
@@ -45,8 +45,11 @@ namespace EFTeste.Controllers
         }   
 
         [HttpPost]
-        public async Task<IActionResult> Update(Student student)
+        public async Task<IActionResult> Update(int? id, Student student)
         {
+            if (!id.HasValue)
+                return BadRequest();
+
             if (ModelState.IsValid) 
             {
 				await _studentRepository.Update(student);
@@ -56,14 +59,18 @@ namespace EFTeste.Controllers
 		}
 
 		[HttpGet]
-		public async Task<IActionResult> Update(int id)
+		public async Task<IActionResult> Update(int? id)
 		{
-		    var student = await _studentRepository.GetById(id);
-		    if (student == null)
+		    var student = await _studentRepository.GetById(id.Value);
+		    if (student is null)
 		    {
 		        return NotFound();
 		    }
-            return View(student);
+            if(!id.HasValue)
+            {
+                return BadRequest();
+			}
+			return View(student);
 		}
 
 		[HttpPost]
