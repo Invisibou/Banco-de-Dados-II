@@ -1,0 +1,67 @@
+﻿@model ICollection<Student>
+
+@{
+    ViewData["Title"] = "Estudantes/Matrículas";
+}
+
+
+
+<div class="text-center">
+    <h1 class="display-4">@Model.Count estudantes.</h1>
+
+    <a asp-controller="StudentCourses" asp-action="Create">Novo</a>
+    <table class="table table-responsive table-hover table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>Data matrícula</th>
+                <th>Excluir</th>
+                <th>Atualizar</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td>@s.ID</td>
+                    <td>@s.FirstMidName</td>
+                    <td>@s.LastName</td>
+                    <td>@s.EnrollmentDate.ToShortDateString()</td>
+                    <td>
+                        @if (s.StudentCourses!.Count > 0)
+                        {
+                            <tr>
+                                <td colspan="5">
+                                    <ul>
+                                @foreach (var sc in s.StudentCourses) // Cada vez que um estudante está matriculado em um curso, então Course.Name será exibido, exibirá o nome do curso.
+                                        {
+                                             <li> - @sc.Course? .Name</li>
+                                        }
+                                    </ul>
+                                </td>
+                            </tr>
+                        }
+                        <form asp-controller="Home" asp-action="Delete"
+                              method="post">
+                            <input type="hidden" name="id" value="@s.ID" />
+                            <button type="submit"
+                                    class="btn btn-danger btn-sm">
+                                Excluir
+                            </button>
+                        </form>
+                    </td>
+                    <td>
+                        <a asp-controller="Home" asp-action="Update" class="btn btn-primary" asp-route-id="@s.ID">
+                            Atualizar
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+

@@ -40,8 +40,9 @@ namespace EFTeste.Controllers
 		public async Task<IActionResult> Update(int? id, Course course)
 		{
 			if (!id.HasValue)
+			{
 				return BadRequest();
-
+			}
 			if (ModelState.IsValid)
 			{
 				await _courseRepository.Update(course);
@@ -54,7 +55,7 @@ namespace EFTeste.Controllers
 		public async Task<IActionResult> Update(int? id)
 		{
 			var course = await _courseRepository.GetById(id.Value);
-			if (course is null)
+			if (course == null)
 			{
 				return NotFound();
 			}

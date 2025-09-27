@@ -19,6 +19,11 @@ namespace EFTeste.Repository
 			await _schoolContext.StudentCourses.AddAsync(studentCourse);
 			await _schoolContext.SaveChangesAsync();
 		}
+		public async Task Update(StudentCourses studentCourse)
+		{
+			_schoolContext.StudentCourses.Update(studentCourse);
+			await _schoolContext.SaveChangesAsync();
+		}
 
 		public async Task Delete(StudentCourses studentCourse)
 		{
@@ -26,18 +31,17 @@ namespace EFTeste.Repository
 			await _schoolContext.SaveChangesAsync();
 		}
 
-		public async Task<List<StudentCourses>?> Get(int studentId, int courseId)
+		public async Task<StudentCourses?> Get(int studentId, int courseId)
 		{
 			var data = await _schoolContext.StudentCourses
 							.Include(x => x.Course)
 							.Include(x => x.Student)
 							.Where(w => w.StudentID == studentId && w.CourseID == courseId) 
 							.FirstOrDefaultAsync();
-
 			return data;
 		}
 
-		public Task<List<StudentCourses>> GetAll()
+		public async Task<List<StudentCourses>> GetAll()
 		{
 			var data = await _schoolContext.StudentCourses
 							.Include(x => x.Course)
@@ -47,7 +51,7 @@ namespace EFTeste.Repository
 			return data;
 		}
 
-		public Task<List<StudentCourses>?> GetByCourseId(int courseId)
+		public async Task<List<StudentCourses>?> GetByCourseId(int courseId)
 		{
 			{
 				var data = await _schoolContext.StudentCourses
@@ -58,7 +62,7 @@ namespace EFTeste.Repository
 
 				return data;
 			}
-
+		}
 		public async Task<List<StudentCourses>> GetByCourseName(string name)
 		{
 			var data = await _schoolContext.StudentCourses
@@ -66,6 +70,7 @@ namespace EFTeste.Repository
 								.Include(x => x.Student)
 								.Where(w => w.Course!.Name!.ToLower().Contains(name.ToLower()))
 								.ToListAsync();
+			return data;
 		}
 
 		public async Task<List<StudentCourses>?> GetByStudentId(int studentId)
@@ -77,19 +82,16 @@ namespace EFTeste.Repository
 			return data;
 		}
 
-		public Task<List<StudentCourses>> GetByStudentName(string name)
+		public async Task<List<StudentCourses>> GetByStudentName(string name)
 		{
 			var data = await _schoolContext.StudentCourses
 								.Include(x => x.Course)
 								.Include(x => x.Student)
 								.Where(w => w.Student!.FirstMidName!.ToLower().Contains(name.ToLower()) || w.Student.LastName.ToLower().Contains(name.ToLower()))
 								.ToListAsync();
+			return data;
 		}
 
-		public async Task Update(StudentCourses studentCourse)
-		{
-			_schoolContext.StudentCourses.Update(studentCourse);
-			await _schoolContext.SaveChangesAsync();
-		}
+		
 	}
 }
