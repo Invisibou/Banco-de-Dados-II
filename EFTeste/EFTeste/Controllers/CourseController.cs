@@ -37,7 +37,7 @@ namespace EFTeste.Controllers
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> Update(int? id, Course course)
+		public async Task<IActionResult> Edit(int? id, Course course)
 		{
 			if (!id.HasValue)
 			{
@@ -45,14 +45,14 @@ namespace EFTeste.Controllers
 			}
 			if (ModelState.IsValid)
 			{
-				await _courseRepository.Update(course);
+				await _courseRepository.Edit(course);
 				return RedirectToAction("Index");
 			}
 			return View(course);
 		}
 
 		[HttpGet]
-		public async Task<IActionResult> Update(int? id)
+		public async Task<IActionResult> Edit(int? id)
 		{
 			var course = await _courseRepository.GetById(id.Value);
 			if (course == null)

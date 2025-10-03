@@ -11,7 +11,8 @@ namespace EFTeste.Controllers
 		private readonly IStudentRepository _studentRepository;
 		private readonly IStudentCoursesRepository _studentCoursesRepository;
 
-		public StudentCoursesController(
+		public StudentCoursesController
+			(
 			ICourseRepository courseRepository,
 			IStudentRepository studentRepository, 
 			IStudentCoursesRepository studentCoursesRepository
@@ -39,6 +40,7 @@ namespace EFTeste.Controllers
 			var data = await _studentRepository.GetAll(); // variável data passa a ser uma variável tipo lista de student.
 			return View(data);
 		}
+
 		[HttpPost]
 
 		public async Task<IActionResult> Create(StudentCoursesViewModel viewModel)
