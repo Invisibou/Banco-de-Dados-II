@@ -11,7 +11,8 @@ namespace EFTeste.Controllers
 		private readonly IStudentRepository _studentRepository;
 		private readonly IStudentCoursesRepository _studentCoursesRepository;
 
-		public StudentCoursesController(
+		public StudentCoursesController
+			(
 			ICourseRepository courseRepository,
 			IStudentRepository studentRepository, 
 			IStudentCoursesRepository studentCoursesRepository
@@ -41,7 +42,18 @@ namespace EFTeste.Controllers
 
 			return View(viewModel);
 		}
+<<<<<<< HEAD
 		
+=======
+		[HttpGet]
+		public async Task<IActionResult> Index() // Todos os alunos com seus cursos. async -> método passa a ser assincrono
+												 // IActionResult -> tipo de retorno do método Index, ele pode retornar diferentes tipos de respostas HTTP, como o erro 404, erro 500, ou *uma página HTML*.
+		{
+			var data = await _studentRepository.GetAll(); // variável data passa a ser uma variável tipo lista de student.
+			return View(data);
+		}
+
+>>>>>>> 90cfaff26b9265a124d05361a733fa8278246bd5
 		[HttpPost]
 
 		public async Task<IActionResult> Create(StudentCoursesViewModel viewModel)

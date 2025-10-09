@@ -44,7 +44,7 @@ namespace EFTeste.Repository
 				.ToListAsync();
 		}
 
-		public async Task Update(Course Course)
+		public async Task Edit(Course Course)
 		{
 			_context.Courses.Update(Course);
 			await _context.SaveChangesAsync();
