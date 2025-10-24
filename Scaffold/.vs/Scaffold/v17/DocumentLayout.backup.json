@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|c:\\users\\429035\\aulas\\quarta fase\\banco de dados ii\\banco-de-dados-ii\\scaffold\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|c:\\users\\429035\\aulas\\quarta fase\\banco de dados ii\\banco-de-dados-ii\\scaffold\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|c:\\users\\429035\\aulas\\quarta fase\\banco de dados ii\\banco-de-dados-ii\\scaffold\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|c:\\users\\429035\\aulas\\quarta fase\\banco de dados ii\\banco-de-dados-ii\\scaffold\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|c:\\users\\429035\\aulas\\quarta fase\\banco de dados ii\\banco-de-dados-ii\\scaffold\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|c:\\users\\429035\\aulas\\quarta fase\\banco de dados ii\\banco-de-dados-ii\\scaffold\\controllers\\studentcoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|solutionrelative:controllers\\studentcoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|c:\\users\\429035\\aulas\\quarta fase\\banco de dados ii\\banco-de-dados-ii\\scaffold\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|c:\\users\\429035\\aulas\\quarta fase\\banco de dados ii\\banco-de-dados-ii\\scaffold\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|c:\\users\\429035\\aulas\\quarta fase\\banco de dados ii\\banco-de-dados-ii\\scaffold\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|solutionrelative:controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|c:\\users\\429035\\aulas\\quarta fase\\banco de dados ii\\banco-de-dados-ii\\scaffold\\data\\unoescbd2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|solutionrelative:data\\unoescbd2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|c:\\users\\429035\\aulas\\quarta fase\\banco de dados ii\\banco-de-dados-ii\\scaffold\\scaffold.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F4C9A1E9-CC48-426E-9C89-51F3509D5BE6}|Scaffold.csproj|solutionrelative:scaffold.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 239,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T23:21:50.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentCoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Controllers\\StudentCoursesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentCoursesController.cs",
+              "ToolTip": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Controllers\\StudentCoursesController.cs",
+              "RelativeToolTip": "Controllers\\StudentCoursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T23:17:35.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T23:16:34.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T23:14:16.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T23:05:46.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T23:00:18.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T23:00:17.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwCAAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T23:00:16.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T22:58:50.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Scaffold",
+              "DocumentMoniker": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Scaffold.csproj",
+              "RelativeDocumentMoniker": "Scaffold.csproj",
+              "ToolTip": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Scaffold.csproj",
+              "RelativeToolTip": "Scaffold.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T22:48:58.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UnoescBd2Context.cs",
+              "DocumentMoniker": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Data\\UnoescBd2Context.cs",
+              "RelativeDocumentMoniker": "Data\\UnoescBd2Context.cs",
+              "ToolTip": "C:\\Users\\429035\\Aulas\\Quarta Fase\\Banco de Dados II\\Banco-de-Dados-II\\Scaffold\\Data\\UnoescBd2Context.cs",
+              "RelativeToolTip": "Data\\UnoescBd2Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T22:53:15.965Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
