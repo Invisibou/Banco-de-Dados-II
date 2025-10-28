@@ -31,6 +31,7 @@ namespace EFTeste.Controllers
 			return View(data);
 		}
 		// O Animal tinha deixado dois index e bugou tudo oq vc imaginar.
+
 		[HttpGet]
 		public async Task<IActionResult> Create()
 		{
@@ -45,7 +46,7 @@ namespace EFTeste.Controllers
 
 		[HttpPost]
 
-		public async Task<IActionResult> Create(StudentCoursesViewModel viewModel)
+		public async Task<IActionResult> Create(CreateStudentCoursesViewModel viewModel)
 		{
 			if (ModelState.IsValid)
 			{

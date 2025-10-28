@@ -31,7 +31,7 @@ namespace EFTeste.Controllers
 			return View(course);
 		}
 		[HttpGet]
-		public IActionResult Create()
+		public IActionResult Create()	
 		{
 			return View();
 		}
