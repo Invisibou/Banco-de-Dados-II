@@ -513,3 +513,4 @@ C:\Users\429035\Aulas\Banco-de-Dados-II\EFTeste\EFTeste\obj\Debug\net8.0\EFTeste
 C:\Users\429035\Aulas\Banco-de-Dados-II\EFTeste\EFTeste\obj\Debug\net8.0\EFTeste.genruntimeconfig.cache
 C:\Users\429035\Aulas\Banco-de-Dados-II\EFTeste\EFTeste\obj\Debug\net8.0\ref\EFTeste.dll
 C:\Users\429035\Aulas\Banco-de-Dados-II\EFTeste\EFTeste\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Aulas\Unoesc\2025\Banco-de-Dados-II\EFTeste\EFTeste\obj\Debug\net8.0\EFTeste.csproj.AssemblyReference.cache
