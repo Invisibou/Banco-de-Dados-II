@@ -8,8 +8,6 @@ namespace GreenHouse.Data
 		public static void Initialize(PlantContext context)
 		{
 			context.Database.EnsureCreated();
-
-			// Look for any plants.
 			if (context.Plants.Any())
 			{
 				return;   // DB has been seeded

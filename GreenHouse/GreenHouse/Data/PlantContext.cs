@@ -12,6 +12,7 @@ namespace GreenHouse.Data
 
 		}
 		public DbSet<Plant> Plants { get; set; }
+
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			modelBuilder.Entity<Plant>().ToTable("Plant");
